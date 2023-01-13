@@ -67,10 +67,10 @@ for file in all_csv_files:
 print(f'shape of the original data: {data.shape}')
 
 # round data
-data['pH']     = data['pH'].apply(lambda x: np.round(x,1)) 
-data['Conc(mM)']     = data['Conc(mM)'].apply(lambda x: np.round(x,1)) 
-data['SatPower(uT)'] = data['SatPower(uT)'].apply(lambda x: np.round(x,1)) 
-data['SatTime(ms)']  = data['SatTime(ms)'].apply(lambda x: np.round(x,1)) 
+data['pH']     = data['pH'].apply(lambda x: np.round(x,2)) 
+data['Conc(mM)']     = data['Conc(mM)'].apply(lambda x: np.round(x,2)) 
+data['SatPower(uT)'] = data['SatPower(uT)'].apply(lambda x: np.round(x,2)) 
+data['SatTime(ms)']  = data['SatTime(ms)'].apply(lambda x: np.round(x,2)) 
 
 
 # keep data 
