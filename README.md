@@ -29,6 +29,7 @@ We used two machine learning methods (ML) for each task/goal:
 ## Computation wall times (seconds)
 
 - Classfication (total time for both pH cut offs)
+
 | Condition        	| L1 Log Reg 	| Random Forest Classifier 	
 |------------------	|------------	|--------------------------	|
 | 4.2 and 5.6 pppm 	| 3.22       	| 15.8                    	| 
@@ -36,7 +37,9 @@ We used two machine learning methods (ML) for each task/goal:
 | All data         	| 715        	| 123                     	| 
 | selected features | 48.5        	| 57.4                     	| 
 
+
 - Regression
+
 | Condition        	|   LASSO 	    | Random Forest Classifier 	
 |------------------	|------------	|--------------------------	|
 | 4.2 and 5.6 pppm 	| 2.21       	| 35.6                    	| 
